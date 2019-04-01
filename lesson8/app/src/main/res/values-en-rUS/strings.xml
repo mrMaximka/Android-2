@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">lesson-7</string>
+    <string name="empty">Список город пуст</string>
+    <string name="second_title">Weather in \n%s</string>
+    <string name="second_temperature">+ %d°</string>
+    <string name="wind_txt">Wind:\t\t %d m/s\n</string>
+    <string name="wet_txt">Wet:\t\t %d\n</string>
+    <string name="pressure_txt">Pressure:\t\t %d mmHg</string>
+    <string name="in_browser_txt">Search in browser</string>
+    <string name="check_box_wind">Wind</string>
+    <string name="check_box_wet">Wet</string>
+    <string name="check_box_pressure">Pressure</string>
+    <string name="default_city">Default city</string>
+    <string name="uri_txt">http://yandex.ru/pogoda/</string>
+    <string name="app_not_found">app not found</string>
+    <string name="message">Weather in %s\nTemperature: + %d°\n%s\n</string>
+    <string name="edit_text_hint">Write your town</string>
+    <string name="settings_bar">Settings</string>
+
+
+    <string-array name="Cities">
+        <item>Moscow</item>
+        <item>Saint-Petersburg</item>
+        <item>Murmansk</item>
+        <item>Yekaterinburg</item>
+        <item>Novosibirsk</item>
+        <item>Samara</item>
+    </string-array>
+
+    <string-array name="sky">
+        <item>Sunny</item>
+        <item>Cloudy</item>
+        <item>Rain</item>
+        <item>Snow</item>
+    </string-array>
+</resources>
