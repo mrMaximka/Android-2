@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@drawable/background2">
+
+	<!-- Активити с погодой -->
+
+	<TextView
+		android:id="@+id/textView"
+		style="@style/SecondTitleStyle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+
+	<TextView
+		android:id="@+id/temperature"
+		style="@style/MainValueStyle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+
+	<TextView
+		android:id="@+id/precipitation"
+		style="@style/MainValueStyle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/secondWind"
+		style="@style/CheckBoxItemsStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+	<TextView
+		android:id="@+id/secondWet"
+		style="@style/CheckBoxItemsStyle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:visibility="gone" />
+
+	<TextView
+		android:id="@+id/secondPressure"
+		style="@style/CheckBoxItemsStyle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:visibility="gone" />
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<Button
+			android:id="@+id/inBrowser"
+			style="@style/SecondFindButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/in_browser_txt"/>
+
+
+		<ImageButton
+			android:id="@+id/share"
+			style="@style/ShareButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</FrameLayout>
+
+</LinearLayout>
