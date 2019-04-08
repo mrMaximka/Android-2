@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_fragment_tv_bsb_title">Настройки</string>
+    <string name="first_fragment_cb_wind">Ветер</string>
+    <string name="first_fragment_cb_wet">Влажность</string>
+    <string name="first_fragment_cb_pressure">Давление</string>
+    <string name="card_view_tv_item">CityName</string>
+    <string name="second_fragment_tv_pressure">Давление %d мм.рт.ст</string>
+    <string name="second_fragment_tv_wind">Ветер %d м/с</string>
+
+    <string-array name="Cities">    <!--Массив городов на RecyclerView-->
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Мурманск</item>
+        <item>Екатеринбург</item>
+        <item>Новосибирск</item>
+        <item>Самара</item>
+        <item>Самара</item>
+        <item>Самара</item>
+        <item>Самара</item>
+        <item>Самара</item>
+        <item>Самара</item>
+        <item>Самара</item>
+        <item>Новосибирск</item>
+        <item>Новосибирск</item>
+        <item>Новосибирск</item>
+        <item>Новосибирск</item>
+        <item>Новосибирск</item>
+        <item>Новосибирск</item>
+        <item>Новосибирск</item>
+    </string-array>
+
+    <string-array name="sky">
+        <item>Ясно</item>
+        <item>Облачно</item>
+        <item>Дождь</item>
+        <item>Снег</item>
+    </string-array>
+</resources>
